@@ -52,23 +52,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  skills: [
-    emoji(
-      "🔸 Work in multi-disciplinary environments to develop data products and solutions."
-    ),
-    emoji(
-      "  "
-    ),
-    emoji("🔸  Create Predictive Analytics Models for Classification, Clustering, Time Series, and Forecasting."),
-    emoji(
-      "       "
-    ),
-    emoji("🔸  Develop and implement Large Language Models and Natural Language Processing techniques to addressing complex business challenges."),
+  // skills: [
+  //   emoji(
+  //     "🔸 Work in multi-disciplinary environments to develop data products and solutions."
+  //   ),
+  //   emoji(
+  //     "  "
+  //   ),
+  //   emoji("🔸  Create Predictive Analytics Models for Classification, Clustering, Time Series, and Forecasting."),
+  //   emoji(
+  //     "       "
+  //   ),
+  //   emoji("🔸  Develop and implement Large Language Models and Natural Language Processing techniques to addressing complex business challenges."),
     
-    emoji(
-      "      "
-    ),
-    emoji("🔸  Incorporate Big Data and Cloud Computing Technologies."),
+  //   emoji(
+  //     "      "
+  //   ),
+  //   emoji("🔸  Incorporate Big Data and Cloud Computing Technologies."),
     
     
   ],
