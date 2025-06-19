@@ -23,11 +23,18 @@ const greeting = {
   username: "Mitali Potnis",
   title: "Hello, I am Mitali",
   subTitle: emoji(
-    "Computational Data Science @ Carnegie Mellon University | Machine Learning | Big Data Analytics | NLP | Cloud Computing"),
+    "AI Engineer @ Intel | Computational Data Science @ Carnegie Mellon University | Machine Learning | NLP | GenAI | Big Data Analytics"),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
+
+{greeting.resumeLink && (
+  <a href={greeting.resumeLink} target="_blank" rel="noreferrer">
+    <button className="resume-button">View Resume</button>
+  </a>
+)}
+
 
 // Social Media Links
 
