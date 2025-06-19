@@ -42,7 +42,7 @@ const socialMediaLinks = {
   github: "https://github.com/mitali-p42?tab=repositories",
   linkedin: "https://www.linkedin.com/in/mitali-potnis",
   gmail: "mitali.potnis@gmail.com",
-  medium: "https://medium.com/@mpotnis",
+  // medium: "https://medium.com/@mpotnis",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,10 +52,9 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  // skills: [
-  //   emoji(
-  //     "🔸 Work in multi-disciplinary environments to develop data products and solutions."
-  //   ),
+  skills: [
+    emoji(
+      "I am an AI Engineer at Intel, where I develop scalable multi-agent systems and optimize large language models for safer, faster deployment. My recent work spans agentic workflows, model compression using quantization and PEFT, and the design of safety guardrails for LLMs. Previously, I was a Software Engineer at McKinsey & Company’s Investment Office, where I built algorithms and tools to streamline investment workflows and improve portfolio monitoring. Before that, I worked at Tech Mahindra, developing predictive pipelines to reduce operational delays for clients. I hold a graduate degree from Carnegie Mellon University, where my research focused on multilingual retrievers, document-grounded question answering, and LLM evaluation frameworks. Outside of work, I enjoy sketching, dancing, and exploring new places.  Email me at mitali.potnis@gmail.com for interesting opportunities!"),
   //   emoji(
   //     "  "
   //   ),
@@ -72,6 +71,9 @@ const skillsSection = {
     
     
   ],
+//   I am an AI Engineer in LinkedIn working on Trust and Anti-Abuse problems. I finished my Masters in Computational and Mathematical Engineering from Stanford University and Bachelors in Computer Science and Engineering from IIT Kanpur. Prior to my current role, I have worked in an indoor robotics startup in Mountain View called Matic Robots. During grad school, I got the opportunity to work in Meta’s (then Facebook) Marketplace Team in Menlo Park, California. Between grad school and undergrad, I worked as an Associate writing Fixed Income trading algorithms and infrastructure in Goldman Sachs’ Bangalore office in India.
+
+// I have been always interested in solving problems using algorithmic and mathematical skills, which later translated to interest in solving computational problems. Post work, I love playing music in my free time and I am always looking to jam on anything rock, indie, and metal. Email me at anujnagpal96@gmail.com for interesting opportunities!
   // Declare an array object for our array of images
   
   
@@ -253,7 +255,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Developer intern",
@@ -429,7 +431,7 @@ const bigProjects = {
       
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
@@ -503,7 +505,7 @@ const blogSection = {
   title: "Blogs",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -542,7 +544,7 @@ const contactInfo = {
   
   
   number: "+92-0000000000",
-  email_address: "mpotnis@andrew.cmu.edu"
+  email_address: "mitali.potnis@gmail.com"
 };
 
 // Twitter Section
