@@ -29,11 +29,11 @@ const greeting = {
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-{greeting.resumeLink && (
-  <a href={greeting.resumeLink} target="_blank" rel="noreferrer">
-    <button className="resume-button">View Resume</button>
-  </a>
-)}
+// {greeting.resumeLink && (
+//   <a href={greeting.resumeLink} target="_blank" rel="noreferrer">
+//     <button className="resume-button">View Resume</button>
+//   </a>
+// )}
 
 
 // Social Media Links
@@ -41,7 +41,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/mitali-p42?tab=repositories",
   linkedin: "https://www.linkedin.com/in/mitali-potnis",
-  gmail: "mpotnis@andrew.cmu.edu",
+  gmail: "mitali.potnis@gmail.com",
   medium: "https://medium.com/@mpotnis",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
